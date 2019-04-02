@@ -262,7 +262,7 @@ header .main-header button:hover {
 }
 
 .section-b article.bottom {
-    width: 280px;
+    width: 30%;
 }
 
 /* Contact */
@@ -289,154 +289,8 @@ footer {
     }
 }
 
-/*    Services CSS     */
-.main-services {
-    font-family: "Segoe UI", sans-serif;
-    font-weight: 400;
-    line-height: 21px;
-}
-
-.services-header-img {
-    width: 100%;
-    margin-top: 100px;
-    box-shadow: 0px 4px 4px darkgray;
-}
-
-section.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 40px;
-    border-top: 1px solid black;
-    border-bottom: 2px solid black;
-}
-
-section.services {
-    padding: 40px 0;
-}
-
-section.services h1 {
-    font-size: 25px;
-}
-
-/* cards */
-section.cards article.card {
-    width: 420px;
-    height: 250px;
-    border: 1px solid black;
-    padding: 20px;
-    margin-top: 40px;
-    background-color: #f4f3f4;
-    box-shadow: 0 3px 3px lightgray;
-}
-
-section.cards article.card h2,
-section.facts h2 {
-    font-size: 16px;
-}
-
-section.cards article.card button.learn {
-    background: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 8px 40px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-section.cards article.card button.learn:hover {
-    animation: buttonFill 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Facts */
-section.facts {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-article.fact,
-div img.services-info-img {
-    width: 420px;
-}
-
-section.facts div ul li {
-    list-style-type: square;
-    list-style-position: inside;
-    line-height: 2;
-}
-
-section.facts div ul li:first-child {
-    margin-top: 10px;
-}
-
-
-/*   Contact    */
-.hero-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px darkgray;
-    margin: 20px 0;
-}
-
-.hero-contact h1 {
-    font-size: 25px;
-}
-
-.main-contact {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-contact .contact-form .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.main-contact .contact-form,
-.form-image .contact-img {
-    width: 420px;
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 0px 3px 3px darkgray;
-    background-color: #f4f3f4
-}
-
-.main-contact .contact-form {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid darkgray;
-    padding: 20px;
-}
-
-.main-contact .contact-form #name,
-#email,
-#message {
-    width: 380px;
-}
-
-.main-contact .contact-form .form .submit-btn {
-    background: white;
-    border: 1px solid darkgray;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 3px;
-}
-
-.main-contact .contact-form .form .submit-btn:hover {
-    animation: buttonFill 2s;
-    animation-fill-mode: forwards;
-}
-
 /*    Media Query Attempts     */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         width: 700px;
     }
@@ -449,6 +303,8 @@ section.facts div ul li:first-child {
         align-content: center;
         align-self: center;
         margin: 0 auto;
+        z-index: 1;
+        background: white;
     }
 
     .container header nav {
