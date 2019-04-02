@@ -299,9 +299,8 @@ footer {
         position: fixed;
         top: 0;
         width: 100%;
-        justify-content: center;
-        align-content: center;
-        align-self: center;
+        display: block;
+        text-align: center;
         margin: 0 auto;
         z-index: 1;
         background: white;
@@ -319,6 +318,11 @@ footer {
 
     .container .hero .main-header {
         justify-content: center;
-        margin: 0 auto;
+        margin: -60px auto 0;
     }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
 }
