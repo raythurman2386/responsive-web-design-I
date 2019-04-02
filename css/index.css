@@ -186,7 +186,6 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 880px;
-    box-shadow: 0 4px 4px lightgray;
 }
 
 header nav a {
@@ -437,52 +436,33 @@ section.facts div ul li:first-child {
 }
 
 /*    Media Query Attempts     */
-@media only screen and (max-width: 500px) {
-    .container header nav {
-        flex-direction: column;
-        width: 100%;
-        position: relative;
-    }
-
-    /*  Index page media  */
-    .container header .hero,
-    .section-a,
-    .section-b {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container header .hero {
-        margin-top: 15px;
-    }
-
-    .container header .hero .main-header {
-        margin: 15px 0;
-    }
-
-    /*  Services page media  */
-
-    .container header .services-header-img {
-        margin-top: 15px;
-    }
-
+@media only screen and (max-width: 768px) {
     .container {
-        width: 440px;
+        width: 700px;
+    }
+
+    .container header nav a:last-child {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
         margin: 0 auto;
     }
 
-    .main-services .cards,
-    .facts {
-        flex-direction: column;
+    .container header nav {
+        width: 700px;
+        margin-top: 75px;
+        position: relative;
     }
 
-    /*  Contact form Media  */
-    .main-contact {
-        flex-direction: column;
+    .container .hero .main-img {
+        display: none;
     }
 
-    .main-contact .contact-form {
-        margin-bottom: 15px;
+    .container .hero .main-header {
+        justify-content: center;
+        margin: 0 auto;
     }
 }
