@@ -326,7 +326,7 @@ footer {
 
     /* start of phone styles */
     .container {
-        width: 400px;
+        width: 98%;
     }
 
     .container header nav a:last-child {
@@ -343,21 +343,24 @@ footer {
     .container header nav {
         flex-direction: column;
         justify-content: center;
-        width: 400px;
+        width: 100%;
     }
 
     .container header nav a {
         border-bottom: 1px solid black;
         width: 100%;
-
+        text-align: center;
     }
 
     .container .main .section-a,
     .container .main .section-b {
         width: 95%;
         flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
     }
 
+    .container .main .section-a .top,
     .container .main .section-b .bottom {
         width: 95%;
         margin: 20px 0;
