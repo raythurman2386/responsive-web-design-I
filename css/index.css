@@ -277,6 +277,91 @@ footer {
     text-align: center;
 }
 
+/*****************************************/
+/*      Services        */
+/*****************************************/
+
+.main-services {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.services-header-img {
+    width: 100%;
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px darkgray;
+}
+
+section.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+section.services {
+    padding: 40px 0;
+}
+
+section.services h1 {
+    font-size: 25px;
+}
+
+/* cards */
+section.cards article.card {
+    width: 45%;
+    height: 325px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #f4f3f4;
+    box-shadow: 0 3px 3px lightgray;
+}
+
+section.cards article.card h2,
+section.facts h2 {
+    font-size: 16px;
+}
+
+section.cards article.card button.learn {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section.cards article.card button.learn:hover {
+    animation: buttonFill 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Facts */
+section.facts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+article.fact,
+div img.services-info-img {
+    width: 98%;
+}
+
+section.facts div ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+section.facts div ul li:first-child {
+    margin-top: 10px;
+}
+
 @keyframes buttonFill {
     from {
         background-color: white;
