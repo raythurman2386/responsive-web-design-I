@@ -323,6 +323,43 @@ footer {
 }
 
 @media screen and (max-width: 479px) {
-    /* start of phone styles */
 
+    /* start of phone styles */
+    .container {
+        width: 400px;
+    }
+
+    .container header nav a:last-child {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 1;
+        background: white;
+    }
+
+    .container header nav {
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .container header nav a {
+        border-bottom: 1px solid black;
+        width: 100%;
+
+    }
+
+    .container .main .section-a,
+    .container .main .section-b {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .container .main .section-b .bottom {
+        width: 95%;
+        margin: 20px 0;
+    }
 }
