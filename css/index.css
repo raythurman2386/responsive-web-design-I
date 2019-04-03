@@ -450,4 +450,16 @@ section.facts div ul li:first-child {
         width: 95%;
         margin: 20px 0;
     }
+
+    .container .main-services .cards {
+        flex-direction: column;
+    }
+
+    .container .main-services .cards .card {
+        width: 98%;
+    }
+
+    .container .facts {
+        flex-direction: column;
+    }
 }
