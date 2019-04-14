@@ -193,6 +193,24 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+.home .hero .main-header .heading {
+  font-size: 6rem;
+  line-height: 1.5;
+}
+.home .hero .main-header button {
+  border: 1px solid #17A2B8;
+  background-color: #17A2B8;
+  border-radius: 8px;
+  color: #212529;
+  padding: 5px 30px;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+}
+.home .hero .main-header button:hover {
+  background-color: #148ea1;
+  color: #FFF;
 }
 .home .main .section-a {
   display: flex;
