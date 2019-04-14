@@ -182,7 +182,8 @@ img {
 }
 @media (max-width: 500px) {
   .top-nav {
-    flex-direction: column;
+    max-width: 450px;
+    flex-direction: column-reverse;
   }
 }
 .top-nav a {
@@ -232,14 +233,29 @@ img {
   background-color: #148ea1;
   color: #FFF;
 }
+@media (max-width: 500px) {
+  .home .hero .main-img {
+    display: none;
+  }
+}
 .home .main .section-a {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 2rem 0;
 }
+@media (max-width: 500px) {
+  .home .main .section-a {
+    flex-direction: column;
+  }
+}
 .home .main .section-a .top {
   width: 45%;
+}
+@media (max-width: 500px) {
+  .home .main .section-a .top {
+    width: 95%;
+  }
 }
 .home .main .middle-img {
   border-radius: 5px;
@@ -251,8 +267,18 @@ img {
   align-items: center;
   margin: 2rem 0;
 }
+@media (max-width: 500px) {
+  .home .main .section-b {
+    flex-direction: column;
+  }
+}
 .home .main .section-b .bottom {
   width: 30%;
+}
+@media (max-width: 500px) {
+  .home .main .section-b .bottom {
+    width: 95%;
+  }
 }
 .home .main .contact-section {
   margin-left: 2rem;

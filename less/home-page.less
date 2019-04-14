@@ -19,6 +19,12 @@
                 .buttons();
             }
         }
+
+        .main-img {
+            @media @mobile {
+                display: none;
+            }
+        }
     }
 
     .main {
@@ -26,8 +32,16 @@
             .flexed(space-around, center);
             margin: 2rem 0;
 
+            @media @mobile {
+                flex-direction: column;
+            }
+
             .top {
                 width: 45%;
+
+                @media @mobile {
+                    width: 95%;
+                }
             }
         }
 
@@ -40,8 +54,16 @@
             .flexed(space-around, center);
             margin: 2rem 0;
 
+            @media @mobile {
+                flex-direction: column;
+            }
+
             .bottom {
                 width: 30%;
+
+                @media @mobile {
+                    width: 95%;
+                }
             }
         }
 
