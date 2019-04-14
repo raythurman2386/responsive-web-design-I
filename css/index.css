@@ -182,3 +182,46 @@ img {
 .top-nav a:hover {
   text-decoration: underline;
 }
+.home .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+.home .hero .main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home .main .section-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+.home .main .section-a .top {
+  width: 45%;
+}
+.home .main .middle-img {
+  border-radius: 5px;
+  width: 100%;
+}
+.home .main .section-b {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+.home .main .section-b .bottom {
+  width: 30%;
+}
+.home .main .contact-section {
+  margin-left: 2rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
