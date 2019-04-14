@@ -198,6 +198,7 @@ img {
 .home .hero .main-header .heading {
   font-size: 6rem;
   line-height: 1.5;
+  text-align: center;
 }
 .home .hero .main-header button {
   border: 1px solid #17A2B8;
