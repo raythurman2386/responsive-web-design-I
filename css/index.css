@@ -244,3 +244,49 @@ img {
   align-items: center;
   margin: 5rem auto;
 }
+.services header {
+  width: 100%;
+}
+.services .main-services {
+  width: 95%;
+  margin: 2rem;
+}
+.services .main-services .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.services .main-services .cards .card {
+  width: 45%;
+  margin: 2rem 0;
+  padding: 2% 0;
+  border-top: 1px dashed #C0C0C0;
+  border-bottom: 1px dashed #C0C0C0;
+}
+.services .main-services .cards .card .learn {
+  border: 1px solid #17A2B8;
+  background-color: #17A2B8;
+  border-radius: 8px;
+  color: #212529;
+  padding: 5px 30px;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+}
+.services .main-services .cards .card .learn:hover {
+  background-color: #148ea1;
+  color: #FFF;
+}
+.services .main-services .facts .fact {
+  width: 95%;
+  margin: 2rem;
+}
+.services .main-services .facts .list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.services .main-services .facts .list ul {
+  font-size: 1.6rem;
+  line-height: 3;
+}

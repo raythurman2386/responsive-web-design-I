@@ -1,0 +1,42 @@
+.services {
+    header {
+        width: 100%;
+    }
+
+    .main-services {
+        width: 95%;
+        margin: 2rem;
+
+        .cards {
+            .flexed(space-around, center);
+            flex-wrap: wrap;
+
+            .card {
+                width: 45%;
+                margin: 2rem 0;
+                padding: 2% 0;
+                .bordered();
+
+                .learn {
+                    .buttons();
+                }
+            }
+        }
+
+        .facts {
+            .fact {
+                width: 95%;
+                margin: 2rem;
+            }
+
+            .list {
+                .flexed(space-around, center);
+
+                ul {
+                    font-size: @font-size;
+                    line-height: 3;
+                }
+            }
+        }
+    }
+}
