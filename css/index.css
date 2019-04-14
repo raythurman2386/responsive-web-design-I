@@ -174,10 +174,29 @@ img {
   align-items: center;
   padding: 1.5rem;
 }
+@media (max-width: 700px) {
+  .top-nav {
+    max-width: 650px;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 500px) {
+  .top-nav {
+    flex-direction: column;
+  }
+}
 .top-nav a {
   font-size: 1.6rem;
   color: #212529;
   text-decoration: none;
+}
+@media (max-width: 700px) {
+  .top-nav a {
+    width: 98%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 1% 0;
+  }
 }
 .top-nav a:hover {
   text-decoration: underline;

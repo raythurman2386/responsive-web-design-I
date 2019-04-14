@@ -2,12 +2,29 @@
     .flexed(space-evenly, center);
     padding: 1.5rem;
 
+    @media @tablet {
+        max-width: 650px;
+        flex-direction: column-reverse;
+    }
+
+    @media @mobile {
+        flex-direction: column;
+    }
+
     a {
         .fonts();
         text-decoration: none;
 
+        @media @tablet {
+            width: 98%;
+            border-bottom: 1px solid lightgray;
+            text-align: center;
+            padding: 1% 0;
+        }
+
         &:hover {
             text-decoration: underline;
         }
+
     }
 }
