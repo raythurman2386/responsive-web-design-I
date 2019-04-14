@@ -1,0 +1,30 @@
+.flexed(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.fonts() {
+    font-size: @font-size;
+    color: @font-color;
+}
+
+.buttons() {
+    border: 1px solid @button-bg;
+    background-color: @button-bg;
+    border-radius: 8px;
+    color: @font-color;
+    padding: 5px 30px;
+    margin: 2rem auto;
+    font-size: @font-size;
+
+    &:hover {
+        background-color: darken(@button-bg, 5%);
+        color: @main-bg;
+    }
+}
+
+.bordered() {
+    border-top: 1px dashed @navigation-border;
+    border-bottom: 1px dashed @navigation-border;
+}
