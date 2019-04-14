@@ -11,11 +11,19 @@
             .flexed(space-around, center);
             flex-wrap: wrap;
 
+            @media @mobile {
+                flex-direction: column;
+            }
+
             .card {
                 width: 45%;
                 margin: 2rem 0;
                 padding: 2% 0;
                 .bordered();
+
+                @media @mobile {
+                    width: 95%;
+                }
 
                 .learn {
                     .buttons();
@@ -31,6 +39,10 @@
 
             .list {
                 .flexed(space-around, center);
+
+                @media @mobile {
+                    flex-direction: column;
+                }
 
                 ul {
                     font-size: @font-size;

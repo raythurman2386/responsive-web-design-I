@@ -302,12 +302,22 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .services .main-services .cards {
+    flex-direction: column;
+  }
+}
 .services .main-services .cards .card {
   width: 45%;
   margin: 2rem 0;
   padding: 2% 0;
   border-top: 1px dashed #C0C0C0;
   border-bottom: 1px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .services .main-services .cards .card {
+    width: 95%;
+  }
 }
 .services .main-services .cards .card .learn {
   border: 1px solid #17A2B8;
@@ -330,6 +340,11 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .services .main-services .facts .list {
+    flex-direction: column;
+  }
 }
 .services .main-services .facts .list ul {
   font-size: 1.6rem;
